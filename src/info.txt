@@ -1,0 +1,7 @@
+button family: overpass, san serif
+jost, lato
+
+ --brz-paragraphfontfamily: 'Overpass', sans-serif;
+ --brz-subtitlefontfamily: 'Overpass', sans-serif;
+       --brz-abovetitlefontfamily: 'Overpass', sans-serif;
+        --brz-heading1fontfamily: 'Overpass', sans-serif;
