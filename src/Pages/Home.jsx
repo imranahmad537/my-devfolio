@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <section
         id="home"
-        className="bg-gradient-to-r from-[rgba(5,5,5,1)] to-[rgba(67,67,67,1)] text-white py-20"
+        className="bg-gradient-to-r from-[rgba(5,5,5,1)] to-[rgba(67,67,67,1)] text-white "
       >
         <div className="max-w-7xl mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center justify-between gap-10 min-h-[80vh]">
           {/* Left Content */}
@@ -25,8 +25,7 @@ const Home = () => {
               @ EDP, Pakistan
             </h3>
             <p className="mt-6 text-base md:text-lg leading-loose">
-              Certified Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Rem, ab!
+             <strong><i><q>The Developer Behind Every Solution</q> </i></strong>
             </p>
             <button className="mt-8 border-2 border-white px-6 py-3 text-white hover:bg-white hover:text-black transition">
               More About Me
@@ -35,11 +34,32 @@ const Home = () => {
 
           {/* Right Image */}
           <div className="w-full md:w-1/2 flex justify-center">
-            <img
+            {/* <img
               src="/your-image.jpg"
               alt="Imran Ahmad"
               className="w-64 md:w-80 rounded-xl shadow-lg"
-            />
+            /> */}
+            <div className="bg-[#1e1e1e] font-mono w-full max-w-2xl rounded-xl shadow-lg border border-gray-700 overflow-hidden ">
+  {/* Top bar with traffic lights */}
+  <div className="bg-[#2c2c2c] px-4 py-2 flex items-center space-x-2">
+    <span className="w-3 h-3 rounded-full bg-red-500"></span>
+    <span className="w-3 h-3 rounded-full bg-yellow-400"></span>
+    <span className="w-3 h-3 rounded-full bg-green-500"></span>
+  </div>
+
+  {/* Code output */}
+  <div className="p-6 text-lg text-[#d4d4d4] bg-[#1e1e1e]">
+    <p>
+      <span className="text-[#9cdcfe]">console</span>
+      <span className="text-white">.</span>
+      <span className="text-[#dcdcaa]">log</span>
+      <span className="text-white">(</span>
+      <span className="text-[#ce9178]">'The Developer Behind Every Solution!'</span>
+      <span className="text-white">);</span>
+    </p>
+  </div>
+</div>
+
           </div>
         </div>
       </section>

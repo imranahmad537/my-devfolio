@@ -12,7 +12,8 @@ export default defineConfig({
       fontFamily: {
         jost: ['Jost', 'sans-serif'],
         overpass: ['Overpass', 'sans-serif'],
-        lato: ['Lato', 'san-serif']
+        lato: ['Lato', 'san-serif'],
+        firacode:['firacode', 'san-serif']
       },
     },
   },

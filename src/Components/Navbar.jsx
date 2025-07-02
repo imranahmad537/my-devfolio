@@ -14,10 +14,10 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8 py-15 px-15">
-            <Link to="/" className="hover:text-gray-300 text-white font-semibold text-2xl">Home</Link>
-            <Link to="#about" className="hover:text-gray-300 text-white font-semibold text-2xl">About</Link>
-            <Link to="#projects" className="hover:text-gray-300 text-white font-semibold text-2xl">Projects</Link>
-            <Link to="#achievements" className="hover:text-gray-300 text-white font-semibold text-2xl">Achievements</Link>
+            <a href="/" className="hover:text-gray-300 text-white font-semibold text-2xl">Home</a>
+            <a href="#about" className="hover:text-gray-300 text-white font-semibold text-2xl">About</a>
+            <a href="#tools" className="hover:text-gray-300 text-white font-semibold text-2xl">Tools</a>
+            <a href="#projects" className="hover:text-gray-300 text-white font-semibold text-2xl">Projects</a>
           </div>
 
           {/* Mobile Toggle Button */}
@@ -47,10 +47,10 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden px-4 pb-4 space-y-2">
-          <Link to="/" className="block hover:text-gray-300">Home</Link>
-          <Link to="#about" className="block hover:text-gray-300">About</Link>
-          <Link to="#projects" className="block hover:text-gray-300">Projects</Link>
-          <Link to="#achievements" className="block hover:text-gray-300">Achievements</Link>
+          <a href="/" className="block hover:text-gray-300">Home</a>
+          <a href="#about" className="block hover:text-gray-300">About</a>
+          <a href="#tools" className="block hover:text-gray-300">Tools</a>
+          <a href="#projects" className="block hover:text-gray-300">Projects</a>
         </div>
       )}
     </nav>

@@ -4,7 +4,7 @@ const Tools = () => {
   return (
     <>
 
-  <section className="font-jost px-4 py-2">
+  <section id="tools" className="font-jost px-4 py-2">
   <div className="max-w-4xl mx-auto py-2">
     <hr className="text-stone-400 font-bold" />
   </div>
