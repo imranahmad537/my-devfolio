@@ -13,6 +13,6 @@ export default defineConfig({
       },
     },
   },
-  plugins: [react(), tailwindcss()],
+  plugins: [react()],
   base: process.env.VITE_BASE_PATH || "/"
 })
