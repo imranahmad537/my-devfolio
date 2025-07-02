@@ -6,7 +6,7 @@
   font-family: Jost;
   src: url('../src/assets/fonts/Jost-VariableFont_wght.ttf');
 }
-@import "tailwindcss";
+
 
 @theme{
   --font-jost: Jost, 'sans-serif'
