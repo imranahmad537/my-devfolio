@@ -51,7 +51,7 @@ const About = () => {
 
       <div className="buttons flex flex-col sm:flex-row justify-center lg:justify-start gap-4 font-semibold mt-10">
         <button className="bg-black text-white px-6 py-3 border border-black rounded">
-          <a href="https://github.com/imranahmad537">GitHub</a>
+          <a href="https://github.com/imranahmad537" target="_blank">GitHub</a>
         </button>
         <button className="px-6 py-3 border border-black rounded">
           <a href="www.linkedin.com/in/imran-ahmad99">LinkedIn</a>
