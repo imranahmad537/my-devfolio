@@ -54,7 +54,7 @@ const About = () => {
           <a href="https://github.com/imranahmad537" target="_blank">GitHub</a>
         </button>
         <button className="px-6 py-3 border border-black rounded">
-          <a href="www.linkedin.com/in/imran-ahmad99">LinkedIn</a>
+          <a   href="https://www.linkedin.com/in/imran-ahmad99">LinkedIn</a>
         </button>
       </div>
     </div>
