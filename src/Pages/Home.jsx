@@ -14,7 +14,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center justify-between gap-10 min-h-[80vh]">
           {/* Left Content */}
           <div className="w-full md:w-1/2 text-center md:text-left">
-            <p className="leading-relaxed text-lg">Hey, I'm</p>
+            <p className="leading-relaxed font-jost text-lg">Hey, I'm</p>
             <h1 className="font-jost font-semibold text-4xl sm:text-5xl md:text-6xl leading-tight">
               Imran Ahmad,
             </h1>
@@ -22,18 +22,18 @@ const Home = () => {
               JavaScript Developer
             </h2>
             <h3 className="font-jost font-semibold text-4xl sm:text-5xl md:text-6xl leading-tight">
-              @ EDP, Pakistan
+              @ E-Digital Pakistan
             </h3>
             <p className="mt-6 text-base md:text-lg leading-loose">
-             <strong><i><q>The Developer Behind Every Solution</q> </i></strong>
+             {/* <strong><i><q>The Developer Behind Every Solution</q> </i></strong> */}
             </p>
-            <button className="mt-8 border-2 border-white px-6 py-3 text-white hover:bg-white hover:text-black transition">
+            <button className="mt-8 border-2 border-white px-6 py-3 text-white font-jost hover:bg-white hover:text-black transition">
               More About Me
             </button>
           </div>
 
           {/* Right Image */}
-          <div className="w-full md:w-1/2 flex justify-center">
+          <div className="w-full md:w-1/2 flex justify-center ">
             {/* <img
               src="/your-image.jpg"
               alt="Imran Ahmad"
@@ -50,6 +50,7 @@ const Home = () => {
   {/* Code output */}
   <div className="p-6 text-lg text-[#d4d4d4] bg-[#1e1e1e]">
     <p>
+      <p className="text-green-700"><i>// Minimal code. Maximum impact.</i></p>
       <span className="text-[#9cdcfe]">console</span>
       <span className="text-white">.</span>
       <span className="text-[#dcdcaa]">log</span>

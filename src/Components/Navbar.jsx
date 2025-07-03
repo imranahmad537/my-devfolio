@@ -13,7 +13,7 @@ export default function Navbar() {
           <div className="text-4xl font-bold ">#Developer</div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-8 py-15 px-15">
+          <div className="hidden md:flex space-x-8 py-13 px-15">
             <a href="/" className="hover:text-gray-300 text-white font-semibold text-2xl">Home</a>
             <a href="#about" className="hover:text-gray-300 text-white font-semibold text-2xl">About</a>
             <a href="#tools" className="hover:text-gray-300 text-white font-semibold text-2xl">Tools</a>

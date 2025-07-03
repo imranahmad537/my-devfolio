@@ -2,7 +2,7 @@ import React from 'react'
 
 const Recognition = () => {
   return (
-<div className="flex flex-wrap justify-center items-center gap-6 px-6 py-10">
+<div className="flex flex-wrap justify-center items-center gap-6 px-6 py-18">
   <div className="flex justify-center items-center w-13 md:w-32 lg:w-18">
     <img src="/navttc2.PNG" alt="" className="max-h-full max-w-full object-contain grayscale" />
   </div>
