@@ -3,8 +3,22 @@ import Recognition from "../Components/Recognition";
 import About from "./About";
 import Tools from "./Tools";
 import Project from "./Project";
+import  { useEffect, useRef } from "react";
+import Typed from "typed.js";
 
 const Home = () => {
+  const typedRef2 = useRef(null);
+  useEffect(() => {
+    const typed = new Typed(typedRef2.current, {
+      strings: ["\"The Developer Behind Solutions...!\""],
+      typeSpeed: 50,
+      backSpeed: 30,
+      loop: true,
+    });
+
+    return () => typed.destroy(); // Cleanup
+  }, []);
+
   return (
     <>
       <section
@@ -25,7 +39,7 @@ const Home = () => {
               @ E-Digital Pakistan
             </h3>
             <p className="mt-6 text-base md:text-lg leading-loose">
-             {/* <strong><i><q>The Developer Behind Every Solution</q> </i></strong> */}
+             <p className="font-jost font-light"><q>MERN Stack <strong>|</strong> Cyber Security <strong>|</strong> Lecturer in Computer Science</q></p>
             </p>
             <button className="mt-8 border-2 border-white px-6 py-3 text-white font-jost hover:bg-white hover:text-black transition">
               More About Me
@@ -55,7 +69,7 @@ const Home = () => {
       <span className="text-white">.</span>
       <span className="text-[#dcdcaa]">log</span>
       <span className="text-white">(</span>
-      <span className="text-[#ce9178]">'The Developer Behind Every Solution!'</span>
+      <span ref={typedRef2} className="text-[#ce9178]"></span>
       <span className="text-white">);</span>
     </p>
   </div>
